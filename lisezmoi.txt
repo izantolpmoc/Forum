@@ -1,0 +1,25 @@
+Fonctionnalités attendues:
+_________________________________________________________
+
+
+I Construction d'un fil de discussion: STATUT => FINALISE
+
+Un particiant inscrit et connecté à son compte pourra poser un premier POST définissant le sujet (topic)
+Les autres bloggeurs y répondent ou commentent ces mêmes réponses, créant ainsi des fils de discussion
+---
+
+
+II Saisie d'un commentaire ou d'une réponse: STATUT => FINALISE
+
+Pour saisir une réponse, après un clic de l'utisateur sur le line "Répondre", un champ de saisi s'ouvre 
+Le forum sera public mais pour y répondre, le participant devra se connecter à son compte.
+---
+
+
+III Quelques statistiques à produire: STATUT => FINALISE
+
+A l'aide des bonnes requêtes MongoDB, on pourra afficher :
+    1. Liste des sujets lancés par un user avec le nb de commentaires de chaque sujet (topic) - fait
+    2. Nb d'utilisateurs dans les fils d'un user-auteur d'une discussion (topic ou sujet) - fait
+
+Pour les plus avancés, on pourra prévoir des affichages différents de la même page - fait
