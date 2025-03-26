@@ -1,8 +1,9 @@
 <?php 
 
 //connexion à MongoDB ATLAS
-//$manager = new MongoDB\Driver\Manager('mongodb+srv://izantolpmoc:Xwch2GQQmahZXjUQ@cluster0.yobfos8.mongodb.net/test');
-$manager = new MongoDB\Driver\Manager('mongodb+srv://izantolpmoc:aFL2kB3rekJI5K1Z@cluster0.jfsqt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+$env = parse_ini_file(".env");
+$mongoUri = $env['MONGODB_URI'];
+$manager = new MongoDB\Driver\Manager($mongoUri);
 
 //fonction pour vérifier si un utilisateur est connecté
 function userConnect(){
