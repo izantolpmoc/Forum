@@ -135,6 +135,13 @@
   color: gray;
   padding-bottom: 5px;
 }
+.details_page .topic div figure.attachment--png { /* Target figure with a class name */ }
+.details_page .topic div figure.attachment--png a img {
+  width: 100% !important;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto !important;
+}
 .details_page .comment_filter {
   display: flex;
   gap: 20px;

@@ -145,6 +145,19 @@
       color: gray;
       padding-bottom: 5px;
     }
+
+    div {
+      figure.attachment--png { /* Target figure with a class name */
+        a {
+          img {
+            width: 100% !important;
+            object-fit: contain;
+            height: auto !important;
+          }
+        }
+      }
+    }
+    
   }
   .comment_filter {
     display: flex;

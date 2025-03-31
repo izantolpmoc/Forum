@@ -76,3 +76,5 @@ if($_POST){
 </div>
 
 <?php require_once "inc/footer.inc.php"?>
+
+<script src="js/upload.js"></script>
